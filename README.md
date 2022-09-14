@@ -2,6 +2,16 @@
 
 ## Assignments
 
-### [Rube Goldberg Machine](/Rube%20Goldberg%20Machine)
+### 1 | [Rube Goldberg Machine](/Rube%20Goldberg%20Machine)
 
-### [Marble Maze](/Marble%20Maze)
+### 2 | [Marble Maze](/Marble%20Maze)
+
+### 3 | [Collaborative Development](/Collaborative%20Development)
+
+### 4 | [Walking Sim](/Walking%20Sim)
+
+### 5 | [Adventure Game](/Adventure%20Game)
+
+### Midterm | [Platformer](/Platformer)
+
+### Final Project | [Mobile Game](/Mobile%20Game)
