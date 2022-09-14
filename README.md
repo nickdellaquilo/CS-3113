@@ -2,4 +2,6 @@
 
 ## Assignments
 
-### [Rube Goldberg Machine](https://github.com/nickdellaquilo/CS-3113/tree/main/Rube%20Goldberg%20Machine)
+### [Rube Goldberg Machine](/Rube%20Goldberg%20Machine)
+
+### [Marble Maze](/Marble%20Maze)
