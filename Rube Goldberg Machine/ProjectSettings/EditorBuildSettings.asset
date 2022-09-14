@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RubeGoldberg.unity
+    guid: 01b40929500ad614281e810f02802d47
   m_configObjects: {}
