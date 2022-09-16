@@ -352,7 +352,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Code/Camera.cs"
+"Assets/Code/Deathplane.cs"
 "Assets/Code/Main.cs"
+"Assets/Code/PlayerMove.cs"
 -langversion:9.0
 
 /deterministic

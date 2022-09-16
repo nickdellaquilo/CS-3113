@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Master : MonoBehaviour
+public class Main: MonoBehaviour
 {
 
     // Startup values
@@ -22,7 +22,7 @@ public class Master : MonoBehaviour
     {
         //Movement
         
-
+        
 
         if (!alive)
         {

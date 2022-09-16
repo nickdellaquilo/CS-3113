@@ -1,0 +1,508 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663358722867514, "dur": 1585117, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663358722867749, "dur": 10611, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663358722878363, "dur": 45916, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663358722924319, "dur": 287352, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663358723211672, "dur": 1239137, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663358724450811, "dur": 1819, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663358724453438, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1663358723073309, "dur": 121810, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663358723074277, "dur": 49472, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663358723178085, "dur": 4878, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663358723182966, "dur": 12142, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663358723183667, "dur": 10385, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663358723199981, "dur": 1255, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663358723199156, "dur": 2111, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663358724453773, "dur": 4408, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663358723259558, "dur":9835, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358723269399, "dur":245, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663358723269654, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663358723269677, "dur":259, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663358723269964, "dur":501, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358723270465, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724396986, "dur":110, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397096, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397121, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397122, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397128, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397132, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397138, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397140, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397147, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397149, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397155, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397157, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397163, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397182, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724397245, "dur":7185, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663358723270391, "dur":80, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723270473, "dur":11525, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723282013, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663358723282014, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723282252, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663358723282254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723284011, "dur":3380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663358723287394, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1663358723287554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723287559, "dur":7605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1663358723295266, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1663358723295368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723295387, "dur":7562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1663358723303057, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze.exe" }}
+,{ "pid":12345, "tid":1, "ts":1663358723303160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723303163, "dur":147704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze.exe" }}
+,{ "pid":12345, "tid":1, "ts":1663358723450961, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723451066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723451071, "dur":19046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723470219, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723470410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723470416, "dur":51210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723522886, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723522996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723522999, "dur":26639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723549738, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723549839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723549846, "dur":21773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723571718, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723571822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723571827, "dur":13818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723585747, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723585849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723585919, "dur":19259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723605280, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723605376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723605381, "dur":35607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723641088, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723641181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723641185, "dur":19594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723660889, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723660987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723660992, "dur":18399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723679492, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723679588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723679593, "dur":18016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723697713, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723697811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723697816, "dur":15198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723713110, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723713207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723713212, "dur":27708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723741051, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723741163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723741168, "dur":21624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723762895, "dur":76530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723839429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723839435, "dur":10704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723850242, "dur":940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723851185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723851191, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723854502, "dur":31772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723886277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723886281, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723889684, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723889798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723889803, "dur":59333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723949234, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358723949324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358723949328, "dur":51628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358724001061, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358724001173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358724001179, "dur":74396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358724075731, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358724075832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663358724075836, "dur":160443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663358724236378, "dur":160589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723270392, "dur":84, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723270476, "dur":11546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723282022, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663358723282179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723283272, "dur":4352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663358723287887, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663358723288021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723288147, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663358723289656, "dur":7684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663358723297343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723297348, "dur":4114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663358723301570, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723301688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723301691, "dur":98182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723399978, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723400090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723400095, "dur":28389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723428752, "dur":750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723429514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723429519, "dur":27902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723457521, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723457623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723457628, "dur":15417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723473152, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723473274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723473281, "dur":14521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723487900, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723487998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723488002, "dur":80865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723569042, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723569166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723569172, "dur":30420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723599690, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723599804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723599807, "dur":42283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723642262, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723642355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723642360, "dur":30176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723672636, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723672746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723672750, "dur":26518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723699362, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723699455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723699460, "dur":17515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723717078, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723717182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723717187, "dur":14924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723732205, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723732297, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723732301, "dur":23863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723756321, "dur":102509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723858834, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723858843, "dur":13993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723872965, "dur":961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723873929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723873935, "dur":4893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723878945, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723879686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723879691, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723881409, "dur":1512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723882942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723882948, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723884127, "dur":18353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723902483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723902489, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723903918, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723904010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723904014, "dur":78875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723982995, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358723983100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358723983105, "dur":21996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358724005244, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358724005372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358724005378, "dur":28500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358724033977, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358724034077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358724034082, "dur":145702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358724179884, "dur":1399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358724181287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663358724181292, "dur":125920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663358724307311, "dur":89675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723270420, "dur":59, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723270479, "dur":11529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723282013, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1663358723282195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723283293, "dur":4197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1663358723287601, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663358723287940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723288449, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663358723289792, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1663358723289928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723289934, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1663358723291296, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1663358723291399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723291404, "dur":100768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1663358723392352, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723392493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723392635, "dur":41360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723434098, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723434199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723434203, "dur":28341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723462642, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723462734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723462739, "dur":19594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723482430, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723482521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723482525, "dur":39880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723522512, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723522622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723522626, "dur":46444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723569171, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723569273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723569277, "dur":23215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723592596, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723592695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723592701, "dur":24330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723617162, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723617263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723617268, "dur":27400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723644842, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723644952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723644958, "dur":75207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723720331, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723720451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723720455, "dur":27631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723748185, "dur":49674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723797864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723797871, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723799374, "dur":86736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723886114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723886120, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723888336, "dur":2113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723890452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723890456, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723892022, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358723892118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358723892123, "dur":176098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358724068323, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358724068421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724068426, "dur":30329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358724098856, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358724098951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724098956, "dur":63699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358724162839, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358724162946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724162953, "dur":41429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358724204480, "dur":793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358724205276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724205281, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663358724206572, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1663358724206981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724207170, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1663358724208455, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1663358724208576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724208581, "dur":8429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1663358724217133, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663358724217236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724217241, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663358724219087, "dur":849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1663358724219938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724219941, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1663358724221512, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663358724221611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724221616, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1663358724223235, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663358724223339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663358724223345, "dur":7272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1663358724230711, "dur":166270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723270457, "dur":27, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723270484, "dur":11720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723282204, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1663358723282385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723286107, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1663358723289919, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1663358723290066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723290257, "dur":6913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1663358723297282, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1663358723297385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723297389, "dur":4136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1663358723301636, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723301813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723301815, "dur":146361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723448301, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723448410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723448415, "dur":18928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723467440, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723467540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723467545, "dur":55084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723522730, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723522876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723522880, "dur":75894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723598891, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723599019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723599027, "dur":18797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723617919, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723618016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723618019, "dur":29138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723647258, "dur":1048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723648313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723648321, "dur":20214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723668639, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723668740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723668763, "dur":22845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723691746, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723691847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723691851, "dur":76619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723768565, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723768657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723768662, "dur":108403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723877181, "dur":32288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723909473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723909478, "dur":2471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723912041, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358723912131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358723912135, "dur":188493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358724100725, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358724100820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358724100824, "dur":65497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358724166424, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358724166521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663358724166527, "dur":230324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663358724396952, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1663358724396954, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723270490, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723270490, "dur":11521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723282013, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1663358723282238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723283635, "dur":4497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1663358723288554, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663358723288677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723288682, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1663358723290556, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1663358723290664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723290669, "dur":4429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1663358723295201, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1663358723295303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723295308, "dur":5436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1663358723300863, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723300995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723301202, "dur":90555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723391882, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1663358723392012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723392124, "dur":13280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1663358723405513, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723405633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723405638, "dur":25970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723431704, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723431823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723431827, "dur":15821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723447755, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723447864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723447869, "dur":59027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723506999, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723507107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723507112, "dur":15378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723522593, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723522689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723522692, "dur":33028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723555825, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723555931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723555937, "dur":37726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723593762, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723593860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723593884, "dur":20415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723614399, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723614505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723614509, "dur":35319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723649928, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723650033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723650038, "dur":14732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723664883, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723664998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723665003, "dur":50599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723715765, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723715874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723715879, "dur":118461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723834501, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723835401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723835407, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723837079, "dur":33224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723870309, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723870316, "dur":7158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723877575, "dur":1232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723878811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723878819, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723881158, "dur":14283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723895445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723895450, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723896939, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723897043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723897047, "dur":32047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723929186, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358723929281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358723929286, "dur":96364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358724025755, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358724025856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358724025861, "dur":112778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358724138747, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358724138851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358724138857, "dur":78930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663358724217889, "dur":4293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1663358724222184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358724222189, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1663358724223960, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1663358724224061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358724224065, "dur":4945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1663358724229107, "dur":3677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1663358724232788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663358724232792, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1663358724234083, "dur":162897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723270520, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723270521, "dur":11630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723282151, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663358723282260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723284386, "dur":4932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1663358723293793, "dur":4707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1663358723298504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723298580, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1663358723301914, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1663358723302028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723302030, "dur":90759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1663358723392898, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723393006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723393010, "dur":18716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723411824, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723411921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723411926, "dur":26087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723438112, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723438207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723438212, "dur":19911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723458219, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723458328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723458332, "dur":18207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723476643, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723476743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723476747, "dur":20608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723497450, "dur":77775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723575229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723575235, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723579287, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723579379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723579384, "dur":19958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723599440, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723599542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723599545, "dur":14060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723613709, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723613880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723613885, "dur":26273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723640269, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723640375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723640380, "dur":19101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723659580, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723659684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723659689, "dur":22154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723681947, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723682045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723682050, "dur":21894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723704051, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723704148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723704177, "dur":19598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723723872, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723723970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723723975, "dur":102677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723826758, "dur":132919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723959681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723959688, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723964459, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358723964582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358723964588, "dur":95937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358724060622, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358724060781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358724060785, "dur":152427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663358724213316, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1663358724213416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358724213422, "dur":5825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1663358724219338, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1663358724219429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358724219432, "dur":6181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1663358724225716, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663358724225817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358724225821, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1663358724227837, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Marble Maze Windows/Marble Maze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1663358724227933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663358724227937, "dur":6299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Marble Maze Windows/Marble Maze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1663358724234329, "dur":162636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663358724411430, "dur":1553, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663358724458356, "dur": 4618, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663358724453429, "dur": 9571, "ph": "X", "name": "Write chrome-trace events", "args": {} },
