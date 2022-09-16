@@ -6,7 +6,7 @@
 
 ### 2 | [Marble Maze](/Marble%20Maze)
 
-### 3 | [Collaborative Development](/Collaborative%20Development)
+### 3 | [Collaborative Development](https://github.com/AdityaDheer/Exercise3)
 
 ### 4 | [Walking Sim](/Walking%20Sim)
 
