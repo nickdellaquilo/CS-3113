@@ -10,7 +10,7 @@
 
 ### 3 | [Collaborative Development](https://github.com/AdityaDheer/Exercise3)
 
-### 4 | [Walking Sim](/Walking%20Sim)
+### 4 | [Walking Sim](https://github.com/AdityaDheer/Exercise3)
 
 ### 5 | [Adventure Game](/Adventure%20Game)
 
