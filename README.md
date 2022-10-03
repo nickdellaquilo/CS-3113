@@ -14,7 +14,7 @@
 
 [<image src="https://user-images.githubusercontent.com/22899761/193355910-207de603-3403-428a-b1db-815f4adb443e.png" width=400>](https://nick-dellaquilo.itch.io/anthology-a-horror-themed-walking-simulator)
 
-### 5 | [Adventure Game](/Adventure%20Game)
+### 5 | [Adventure Game](https://github.com/junhkim20/AdventureGame)
 
 ### Midterm | [Platformer](/Platformer)
 
