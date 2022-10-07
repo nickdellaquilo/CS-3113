@@ -13,6 +13,8 @@
 [<image src="https://user-images.githubusercontent.com/22899761/193355910-207de603-3403-428a-b1db-815f4adb443e.png" width=400>](https://nick-dellaquilo.itch.io/anthology-a-horror-themed-walking-simulator)
 
 ### 5 | [Adventure Game](https://github.com/junhkim20/AdventureGame)
+  
+[<image src="https://user-images.githubusercontent.com/22899761/194641941-8a9a8675-30e7-43ec-b0d1-85a67cd22961.png" width=400>](https://dahriel.itch.io/maze)
 
 ### Midterm | [Platformer](/Platformer)
 
